@@ -4,6 +4,7 @@
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
 <script type="text/javascript">
     // More API functions here:
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
@@ -57,3 +58,11 @@
         }
     }
 </script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="prueba"
+  agent-id="91b06b9a-21bb-4567-99b6-01828013723e"
+  language-code="es"
+></df-messenger>
+  
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
